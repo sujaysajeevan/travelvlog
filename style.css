@@ -1,0 +1,82 @@
+.header{
+
+    margin: 0px;
+}
+
+
+ img{
+    height: 70px;
+}
+
+.head1{
+    text-align: center;
+   font-size: 70px; 
+   color: rgb(227, 227, 232);
+   
+   text-shadow: 10px 10px 40px  rgb(26, 25, 25);
+   font-family: 'Merriweather', serif;
+   padding-top: 300px;
+}
+.head1:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    color: rgba(255, 0, 0, 0.762);
+}
+
+
+.div > button{
+    width: 100px;
+    border: 2px rgb(76, 59, 106) solid;
+    border-radius: 10px;
+    align-content: center;
+
+
+}
+.content{
+    
+    text-align: center;
+
+
+}
+.content h2,h3{
+    text-shadow: 2px 2px px rgb(15, 14, 14);
+    color: rgba(69, 70, 146, 0.795);
+}
+.image6{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 20px;
+}
+.images{
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    transition: 1s;
+ 
+}
+.images:hover{
+       transform: scale(1.2);
+}
+.destination{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.input{
+   
+  padding-left: 20px;
+  padding-bottom: 10px;
+ 
+
+}
+
+.destination img{
+    box-shadow: 20px 20px 20px rgb(52, 140, 124);
+    height: 200px;
+    width: 200px;
+}
+.hoverable-icon:hover {
+    transform: scale(2);
+   color: aqua;
+  }
